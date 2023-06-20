@@ -1,0 +1,22 @@
+accessKey : AKIAWS4XOD4W6UCN74EZ
+secret : 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
+bucketName : blitzkrug
+region : us-east-1
+
+
+  
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: webstudent
+    url: jdbc:mysql://127.0.0.1:3306/security
+    username: webstudent
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB  
